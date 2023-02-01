@@ -209,7 +209,7 @@
 ---
 - summary: |
     Проверка результата поиска по категории mens-shirts
-  status: fail
+  status: pass
   requirement: |
     Пользователь должен иметь возможность искать товары по категории
   prerequisites: |
