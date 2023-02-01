@@ -1,0 +1,74 @@
+---
+- summary: |
+    Некорректно работает поиск по категории groceries
+  environment: |
+    Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Зайти на главную страницу веб-сайта https://hexlet-products-store.vercel.app/
+    2. В разделе Category нажать на стрелку раскрывающегося списка
+    3. Выбрать категорию groceries
+  expected-result: |
+    В поисковой выдаче ожидается увидеть все товары данной категории
+  actual-result: |
+    В поисковой выдаче помимо товаров данной категории выпадает товар Gulab Powder 50 Gram с хэштегом groceries, но который к ним не относится
+    
+- summary: |
+    Некорректно работает поиск по категории tops
+  environment: |
+    Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Зайти на главную страницу веб-сайта https://hexlet-products-store.vercel.app/
+    2. Перейти на вторую страницу каталога, нажав Next
+    3. В разделе Category нажать на стрелку раскрывающегося списка
+    4. Выбрать категорию tops
+  expected-result: |
+    В поисковой выдаче ожидается увидеть все товары данной категории
+  actual-result: |
+    В поисковой выдаче помимо товаров данной категории выпадает товар Women Sweaters Wool с хэштегом tops, но который к ним не относится
+    В поисковой выдаче помимо товаров данной категории выпадает товар women winter clothes с хэштегом tops, но который к ним не относится
+    
+- summary: |
+    Некорректно работает поиск по категории womens-dresses
+  environment: |
+    Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Зайти на главную страницу веб-сайта https://hexlet-products-store.vercel.app/
+    2. Перейти на вторую страницу каталога, нажав Next
+    3. В разделе Category нажать на стрелку раскрывающегося списка
+    4. Выбрать категорию womens-dresses
+  expected-result: |
+    В поисковой выдаче ожидается увидеть все товары данной категории
+  actual-result: |
+    В поисковой выдаче помимо товаров данной категории выпадает товар NIGHT SUIT с хэштегом womens-dresses, но который к ним не относится
+    
+- summary: |
+    Некорректно работает поиск по категории automotive
+  environment: |
+    Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Зайти на главную страницу веб-сайта https://hexlet-products-store.vercel.app/
+    2. Перейти на nhtnm. страницу каталога, нажав Next 2 раза
+    3. В разделе Category нажать на стрелку раскрывающегося списка
+    4. Выбрать категорию automotive
+  expected-result: |
+    В поисковой выдаче ожидается увидеть все товары данной категории
+  actual-result: |
+    В поисковой выдаче помимо товаров данной категории выпадает товар TC Reusable Silicone Magic Washing Gloves с хэштегом automotive, но который к ним не относится
+
+
+- summary: |
+    Изменяется url в адресной строке браузера, не работают вкладки LOBBY/TOURNAMENT/COMPLETED GAMES
+  environment: |
+    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Linux
+  steps-to-reproduce: |
+    1. Залогиниться в системе https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+    2. Переключить Лидерборд по сроку (месяц/неделя/за все время)
+    3. Переключить LOBBY/TOURNAMENT/COMPLETED GAMES
+  expected-result: |
+    url в адресной строке не меняется
+    Вкладки работают
+  actual-result: |
+    При нажатии на week,month,all в urlHash появляется '!'
+    Вкладки не работают.
+    Ошибка изображена на скриншоте assets/bug.png
