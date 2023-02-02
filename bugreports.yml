@@ -1,6 +1,6 @@
 ---
 - summary: |
-    Некорректно работает поиск по категории groceries
+    Поиск по категории groceries некорректно работает 
   environment: |
     Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
   steps-to-reproduce: |
@@ -13,7 +13,7 @@
     В поисковой выдаче помимо товаров данной категории выпадает товар Gulab Powder 50 Gram с хэштегом groceries, но который к ним не относится
     
 - summary: |
-    Некорректно работает поиск по категории tops
+    Поиск по категории tops некорректно работает
   environment: |
     Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
   steps-to-reproduce: |
@@ -28,7 +28,7 @@
     В поисковой выдаче помимо товаров данной категории выпадает товар women winter clothes с хэштегом tops, но который к ним не относится
     
 - summary: |
-    Некорректно работает поиск по категории womens-dresses
+    Поиск по категории womens-dresses некорректно работает
   environment: |
     Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
   steps-to-reproduce: |
@@ -42,7 +42,7 @@
     В поисковой выдаче помимо товаров данной категории выпадает товар NIGHT SUIT с хэштегом womens-dresses, но который к ним не относится
     
 - summary: |
-    Некорректно работает поиск по категории automotive
+    Поиск по категории automotive некорректно работает
   environment: |
     Google Chrome  109.0.5414.120 (Официальная сборка) (64 бит)
   steps-to-reproduce: |
@@ -55,20 +55,21 @@
   actual-result: |
     В поисковой выдаче помимо товаров данной категории выпадает товар TC Reusable Silicone Magic Washing Gloves с хэштегом automotive, но который к ним не относится
 
-
 - summary: |
-    Изменяется url в адресной строке браузера, не работают вкладки LOBBY/TOURNAMENT/COMPLETED GAMES
+    Поиска по цвету товаров не реализован
   environment: |
-    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
-    ОС Linux
-  steps-to-reproduce: |
-    1. Залогиниться в системе https://codebattle.hexlet.io/session/new?locale=en&next=%2F
-    2. Переключить Лидерборд по сроку (месяц/неделя/за все время)
-    3. Переключить LOBBY/TOURNAMENT/COMPLETED GAMES
-  expected-result: |
-    url в адресной строке не меняется
-    Вкладки работают
+    Google Chrome   109.0.5414.120 (Официальная сборка) (64 бит)
   actual-result: |
-    При нажатии на week,month,all в urlHash появляется '!'
-    Вкладки не работают.
-    Ошибка изображена на скриншоте assets/bug.png
+    Функция не реализована
+    
+- summary: |
+    Поиска по размеру товаров не реализован
+  environment: |
+    Google Chrome   109.0.5414.120 (Официальная сборка) (64 бит)
+  actual-result: |
+    Функция не реализована
+    
+ 
+  
+    
+ 
