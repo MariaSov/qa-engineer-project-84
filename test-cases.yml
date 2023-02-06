@@ -584,7 +584,7 @@
 ---
 - summary: |
     Проверка доступности мобильной версии веб-сайта
-  status: pass
+  status: fail
   requirement: |
     Сайт должен иметь мобильную версию 
   prerequisites: |
