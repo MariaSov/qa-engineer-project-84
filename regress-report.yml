@@ -79,11 +79,38 @@ test-cases:
   - summary: |
       Мобильная версия веб-сайта не адаптирована для экрана мобильного телефона
     status: pass
- 
-  - summary: |
-      Удобство пользования веб-сайтом
-    status: pass  
     
+  - summary: |
+      Прохождение регистрации на веб-сайте
+    status: pass
+    
+  - summary: |
+      Шапка сайта пропадает при положении полосы прокрутки внизу
+    status: fail
+    
+  - summary: |
+      Товары остаются в корзине после оформлении заказа
+    status: fail
+    
+  - summary: |
+      Наличие информации о доставке заказа на веб-сайте
+    status: fail
+    
+  - summary: |
+      Навигация по хэштегу категории smartphones не работает
+    status: pass
+   
+  - summary: |
+      Проверка навигация по хэштегу категории furniture
+    status: pass
+   
+  - summary: |
+      Проверка навигация по хэштегу категории mens-watches
+    status: pass
+   
+  - summary: |
+      Проверка навигация по хэштегу категории motorcycle
+    status: pass
     
 bugreports:
   - summary: |
