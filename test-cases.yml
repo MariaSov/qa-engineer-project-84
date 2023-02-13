@@ -718,7 +718,7 @@
     - Выбрать категорию smartphones
     - Перейти в карточку первого товара
     - Нажать на ссылку #smartphones
-    - Зайти в DevTools 
+    - Зайти в DevTools раздел Elements
     - Проверить ссылку
   expected-result: |
    Пользователь переходит в категорию smartphones каталога
@@ -736,7 +736,7 @@
     - Выбрать категорию furniture
     - Перейти в карточку первого товара
     - Нажать на ссылку #furniture
-    - Зайти в DevTools 
+    - Зайти в DevTools раздел Elements
     - Проверить ссылку
   expected-result: |
    Пользователь переходит в категорию furniture каталога
@@ -754,7 +754,7 @@
     - Выбрать категорию mens-watches
     - Перейти в карточку первого товара
     - Нажать на ссылку #mens-watches
-    - Зайти в DevTools 
+    - Зайти в DevTools раздел Elements
     - Проверить ссылку
   expected-result: |
    Пользователь переходит в категорию mens-watches каталога
@@ -772,7 +772,7 @@
     - Выбрать категорию motorcycle
     - Перейти в карточку первого товара
     - Нажать на ссылку #motorcycle
-    - Зайти в DevTools 
+    - Зайти в DevTools раздел Elements
     - Проверить ссылку
   expected-result: |
    Пользователь переходит в категорию mens-watches каталога
